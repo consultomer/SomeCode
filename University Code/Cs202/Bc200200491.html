@@ -1,0 +1,187 @@
+<!--
+    Author 
+    Omer Abdulrehman
+    BC200200491
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="BC200200491 Omer Abdulrehman" />
+    <title>Student Registration Form</title>
+</head>
+
+<!-- background color wheat -->
+
+<body style="background-color:wheat ;">
+
+    <h1>Student Registration Form</h1>
+    <!-- Table For Form -->
+    <table>
+        <!-- Opening Of Form -->
+        <form action="action_page.php" method="post">
+            <!-- Rows -->
+            <tr>
+                <!-- First Column -->
+                <td>
+                    <label for="firstname"><b>First Name</b></label>
+                </td>
+                <!-- Second Column -->
+                <td>
+                    <input type="text" name="firstname">
+                </td>
+            </tr>
+            <tr>
+                <!-- First Column -->
+                <td>
+                    <label for="lastname"><b>Last Name</b></label>
+                </td>
+                <!-- Second Column -->
+                <td>
+                    <input type="text" name="lastname">
+                </td>
+            </tr>
+            <tr>
+                <!-- First Column -->
+                <td>
+                    <label for="fathername"><b>Father Name</b></label>
+                </td>
+                <!-- Second Column -->
+                <td>
+                    <input type="text" name="fathername">
+                </td>
+            </tr>
+            <tr>
+                <!-- First Column -->
+                <td>
+                    <label for="emailid"><b>Email ID</b></label>
+                </td>
+                <!-- Second Column -->
+                <td>
+                    <input type="email" name="emailid">
+                </td>
+            </tr>
+            <tr>
+                <!-- First Column -->
+                <td>
+                    <label for="dateofbirth"><b>Date Of Birth</b></label>
+                </td>
+                <!-- Second Column -->
+                <td>
+                    <input type="text" name="dateofbirth">
+                </td>
+            </tr>
+            <tr>
+                <!-- First Column -->
+                <td>
+                    <label for="sex"><b>Gender</b></label>
+                </td>
+                <!-- Second Column -->
+                <td>
+                    <input type="radio" name="sex" value="male">Male
+                    <input type="radio" name="sex" value="female">Female
+                </td>
+            </tr>
+            <tr>
+                <!-- First Column -->
+                <td>
+                    <label for="address"><b>Address</b></label>
+                </td>
+                <!-- Second Column -->
+                <td>
+                    <input type="text" name="address">
+                </td>
+            </tr>
+            <tr>
+                <!-- First Column -->
+                <td>
+                    <label for="city"><b>City</b></label>
+                </td>
+                <!-- Second Column -->
+                <td>
+                    <input type="text" name="city">
+                </td>
+            </tr>
+            <tr>
+                <!-- First Column -->
+                <td>
+                    <label for="postalcode"><b>Postal Code</b></label>
+                </td>
+                <!-- Second Column -->
+                <td>
+                    <input type="text" name="postalcode">
+                </td>
+            </tr>
+            <tr>
+                <!-- First Column -->
+                <td>
+                    <label for="province"><b>Province</b></label>
+                </td>
+                <!-- Second Column -->
+                <td>
+                    <input type="email" name="province">
+                </td>
+            </tr>
+            <tr>
+                <!-- First Column -->
+                <td>
+                    <label for="hobbies"><b>Hobbies</b></label>
+                </td>
+                <!-- Second Column -->
+                <td>
+                    <input type="checkbox" name="hobbies" value="drawing">Drawing
+                    <input type="checkbox" name="hobbies" value="cooking">Cooking
+                    <input type="checkbox" name="hobbies" value="games">Games
+                    <br>
+                    <input type="checkbox">Others <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <!-- First Column -->
+                <td>
+                    <b>Higher Qualification</b>
+                </td>
+                <!-- Second Column -->
+                <td>
+                    <input type="checkbox" name="hs">High School (10th)
+                    <br>
+                    <input type="checkbox" name="hers">Higher School (12th)
+                    <br>
+                    <input type="checkbox" name="gra">Graduation (Bachelors)
+                    <br>
+                    <input type="checkbox" name="pg">Post Graduation (Master)
+                    <br>
+                    <input type="checkbox" name="phd">PHD
+                </td>
+            </tr>
+            <tr>
+                <!-- First Column -->
+                <td>
+                    <b>Courses Applied For</b>
+                </td>
+                <!-- Second Column -->
+                <td>
+                    <input type="radio" name="caf" value="BA">BA (Bachelor of Arts)
+                    <br>
+                    <input type="radio" name="caf" value="B.Sc">B.Sc (Bachelor of Science)
+                    <br>
+                    <input type="radio" name="caf" value="MCS">MCS (Master of Computer Science)
+                    <br>
+                    <input type="radio" name="caf" value="M.Com">M.Com (Master of Commerce)
+                    <br>
+                    <input type="radio" name="caf" value="M.Sc">M.Sc (Master of Science)
+                </td>
+            </tr>
+            <tr style="text-align:center;">
+                <!-- Grouping Columns -->
+                <td colspan="2">
+                    <button>Submit</button>
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
