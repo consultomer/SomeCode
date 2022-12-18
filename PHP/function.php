@@ -49,6 +49,7 @@ $name = forthFunction();
 #Calling third Funtion with forth Function value 
 thirdFunction($name);
 
+#Creating Function #5
 function fifthFunction()
 {
     global $name;
