@@ -56,10 +56,10 @@ function fifthFunction()
     $name = "YoYo";
     echo "<br>";
 }
+#Check name
 echo $name;
+#Calling Function to set Name to global
 fifthFunction();
 echo $name;
-
-
 
 ?>
