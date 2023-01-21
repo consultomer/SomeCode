@@ -1,0 +1,57 @@
+<!--
+    Author 
+    Omer Abdulrehman
+    BC200200491
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="BC200200491 Omer Abdulrehman" />
+    <title>Assignment#2</title>
+    <style>
+        img {
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body id="body">
+    <h1>Assignment#2</h1>
+    <h2>Basic Info:</h2>
+    <p>VUID: BC200200491 <br>Study Program: BS(Software Engineering) <br>Semester: 6 <br></p>
+    <div>
+        <p id="p1">Please click on Display button to view student basic info VUID and Study Program.</p>
+        <button id="display">Display</button>
+        <p id="basicinfo">Students' Basic info will be displayed here.</p>
+    </div>
+    <h3>Virtual University of Pakistan <br></h3>
+    <img onmouseover="callMe(1)" onmouseout="callMe(0)" id="imgg" src="VULOGO.jpg" alt="VU logo">
+
+    <script>
+        const displayBtn = document.querySelector('#display');
+        const basicinfo = document.getElementById('basicinfo');
+
+
+        displayBtn.addEventListener('click', () => {
+            body.style.backgroundColor = 'blue';
+            basicinfo.innerHTML = 'VUID: BC200200491 Study Program: BS(Software Engineering) 6 '
+        })
+        function callMe(x) {
+            if (x === 1) {
+                imgg.style.height = "200px";
+                imgg.style.width = "200px";
+            }
+            else {
+                imgg.style.height = "100px";
+                imgg.style.width = "100px";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
